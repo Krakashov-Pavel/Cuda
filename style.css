@@ -3,7 +3,7 @@ body{
     background-color: white;
     font-size: 14px;
     font-family: 'Titillium Web', sans-serif;
-    color: black;
+    color: white;
     
 }
 
@@ -39,11 +39,10 @@ h1,h2,h3,h4,h5,h6{
 .header{
     
     display: flex;
-    justify-content: center;
-    align-items: center;
+    align-items: flex-end;
         
     width: 100%;
-    height: 150px;
+    height: 100px;
     background-color: #87509c;
         
 }
@@ -65,17 +64,72 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .nav__link{
-    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0);
+    
     text-decoration: none;
     color: white;
     padding: 10px 15px;
     margin-left: 15px;
     text-transform: uppercase;
     border-radius: 5px;
+    transition: background-color .1s linear ;
+    
+    
+}
+
+.nav__link:hover{
+   
+    background-color: rgba(0,0,0,.5);
+    
+}
+
+/*Intro
+=========================*/
+
+
+.inttro{
+    width: 100%;
+    padding: 145px 0;
+    background-color: #87509c;
+}
+
+.container{
+    
+}
+
+.intro__iner{
+    
+    text-align: center;
+    
+}
+
+.into__title{
+    
+    font-weight: 700;
+    font-size: 42px;
+    margin-bottom: 60px;
     
 }
 
 
+.but{
+    
+    display: inline-block;
+    padding: 25px 80px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    border-bottom:5px solid #c86a40;
+    
+    
+    
+    
+}
 
-
+.but--orange{
+    
+    background-color: #eb7d4b;
+}
 
