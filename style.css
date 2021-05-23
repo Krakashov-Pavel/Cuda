@@ -142,12 +142,11 @@ h1,h2,h3,h4,h5,h6{
 .services{
     
     background-color: #17c2a4;
-        
-   
     padding: 120px;
 }
  
 .services__iner{
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -159,13 +158,16 @@ h1,h2,h3,h4,h5,h6{
 .services__title{
     font-size: 40px;
     font-weight: 700;
+    margin: 0 0;
+    padding: 0 0;
 }
 
 .line{
     display: flex;
     width: 85px;
-    margin: 25px 0;
-    border-bottom: 3px #14a58c solid;
+    margin: 20px 0;
+    height: 3px;
+    background-color: rgba(0,0,0,.2);
    
 }
 
@@ -233,10 +235,100 @@ h1,h2,h3,h4,h5,h6{
     font-weight: 300;
 }
 
+/*Team
+=========================*/
+
+.team{
+    display: flex;
+    background-color: #e7f1f8;
+    color: black;
+}
+
+.team__iner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 125px 0;
+}
+
+.team__title{
+    font-size: 41px;
+    font-weight: 700;
+}
+
+.team__text{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.team__contetnt{
+    padding-top: 80px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.team__block{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div__photo{
+    width: 200px;
+    height: 200px;
+    background-color: #878787;
+    border-radius: 50%;
+    margin-bottom: 40px;
+}
+
+.team__name{
+    font-weight: 700;
+    font-size: 24px ;
+}
+
+.team__prof{
+    color: #79d0ee;
+}
+
+.team__text__media{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 30px 15%;
+}
+
+.team__media{
+    display: flex;
+}
+
+.media__item{
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    background-color: #bdd1df;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: background-color .1s linear;
+    
+    
+}
+
+.media__icon{
+   display: block;
+    height: 15px;
+    fill: white;
+    
+}
 
 
-
-
-
+.media__item:hover{
+    
+    background-color: #90afc5;
+    
+}
 
 
