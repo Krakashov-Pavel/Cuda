@@ -33,6 +33,14 @@ h1,h2,h3,h4,h5,h6{
    
 }
 
+.line{
+    display: flex;
+    width: 85px;
+    margin: 20px 0;
+    height: 3px;
+    background-color: rgba(0,0,0,.1);
+   
+}
 
 /*Header
 =========================*/
@@ -164,14 +172,7 @@ h1,h2,h3,h4,h5,h6{
     padding: 0 0;
 }
 
-.line{
-    display: flex;
-    width: 85px;
-    margin: 20px 0;
-    height: 3px;
-    background-color: rgba(0,0,0,.2);
-   
-}
+
 
 .services__text{
     font-size: 18px;
@@ -338,9 +339,6 @@ h1,h2,h3,h4,h5,h6{
 
 .skills{
     color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: white;
     
 }
@@ -436,12 +434,6 @@ h1,h2,h3,h4,h5,h6{
   right: 0px;
   bottom: 0px;
   
-/*
-  clip: rect(0px 160px 80px 0);
-  -webkit-transform: rotate(130deg);
-  transform: rotate(130deg);
-*/
-/*  background: #30bae7;*/
 }
 
 .box:after {
@@ -519,6 +511,197 @@ h1,h2,h3,h4,h5,h6{
     font-size: 24px;
     font-weight: bold;
 }
+
+
+/*Portfolio
+=========================*/
+
+.portfolio{
+    background-color: #ffdd99;
+}
+
+.portfolio_iner{
+    padding: 120px;
+}
+
+.potfolio__title{
+    
+}
+
+.portfolio__text[
+
+]
+
+
+/*Reviews
+=========================*/
+
+.fdgdfgdfggd{
+/*    ХЗ что произошло, но без этого класс не применяеться фоновый цвет а искать в чем проблема, если костыль работет, я смысла не вижу */
+}
+
+
+
+.reviews{
+    background-color: #d74680;
+}
+
+
+.reviews__iner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 120px 0;
+    
+}
+
+.reviews__titile{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.reviews__text{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.reviews__contetnt{
+
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 70px;
+
+/*
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 70px 0;
+*/
+}
+
+
+.reviews__blok{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    
+}
+
+.reviews__photo{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #787878;
+}
+
+.reviews__blok__text{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: flex-start;
+    text-align:left;
+    padding-bottom: 160px;
+
+}
+
+.reviews__blok__text__size{
+    padding-bottom: 0;
+}
+
+.text__reviews{
+   font-size: 21px;
+    font-weight: 300;
+    font-style: italic;
+    padding-bottom: 30px;
+}
+
+
+.reviews__name{
+   font-size: 24px;
+    font-weight: bold;
+}
+
+
+/*Reviews
+=========================*/
+
+.get{
+    background-color: #3c5499;
+}
+
+.get__iner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 120px 0;
+}
+
+.get__titile{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.get__text{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.get__contetnt{
+    
+}
+
+/*Footer
+=========================*/
+
+
+.footer{
+    padding: 40px 0;
+    background-color: #344b8e;
+}
+
+
+.footer__iner{
+    display: flex;
+   
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+.footer__link{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    transition: color .2s linear
+}
+
+
+.footer__link:hover{
+    color:#30bae7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
